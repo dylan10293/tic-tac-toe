@@ -36,6 +36,7 @@ const Game = () => {
 				/>
 			</div>
 			<div className="game-info">
+				{currentMove !== 0 && <span className="current-move">You are move {currentMove}</span>}
 				<ol>
 					{moves}
 				</ol>
